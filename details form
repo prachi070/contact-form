@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact details</title>
+</head>
+<style>
+    
+    p{color:darkblue}
+    k{color:pink}
+    j{color:red}
+    
+    div {      
+  background-color: lightgrey;
+  width: 20%;
+  border: 15px solid lightslategray;
+  padding: 50px;
+  margin: 20px;
+}
+.center {
+  margin: auto;
+  width: 25%;
+  padding: 10px;
+}
+</style>a
+<body style="background-color:rgb(170, 240, 170);">
+    <form action ="backend.php">
+    <div  class="center" >
+       
+    <h1 style="text-align:center">DETAILS</h1>
+    
+   
+        <p>Name:<input type="text" name="myname" id="name" ></p>
+  
+    <br>
+    
+        <p>Address:<input type="text" name="myaddress" id="address"></p>
+    
+    <br>
+ 
+        <p>Age:
+           <k> <select name = "age"  id="age">
+            <option value="1-18"> select age</option>
+            <option value="1-18"> below 18</option>
+        <option value="18-100 "> above 18</option></select></k>
+    </select></p>
+  
+    <br>
+
+        <p>Phone_no:<input type="number" name="myphone_no" id="phone_no"></p>
+  
+    <br>
+  
+        <p>Gender:<br>
+            female:<input type="radio" name="female" id="female"> male:<input type="radio" name="male" id="male"> other:<input type="radio" name="other" id="other"></p>
+  
+    <br>
+   
+        <j> <input type="submit" onclick="showMessage()" id="mysubmit" value="Submit" > </j>
+        <j> <input type="reset" value="Restart"></j>
+   
+    <br>
+</div>
+</form>
+
+</body>
+</html>
