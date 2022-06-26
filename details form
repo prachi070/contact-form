@@ -24,6 +24,19 @@
   width: 25%;
   padding: 10px;
 }
+.button {
+  background-color:blue; /* reds */
+  border: none;
+  color: white;
+  padding: 6px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button2{background-color: #f44336;}
 </style>a
 <body style="background-color:rgb(170, 240, 170);">
     <form action ="backend.php">
@@ -58,8 +71,9 @@
   
     <br>
    
-        <j> <input type="submit" onclick="showMessage()" id="mysubmit" value="Submit" > </j>
-        <j> <input type="reset" value="Restart"></j>
+       
+        <button class="button">Submit</button>
+        <button class="button button2">Restart</button>
    
     <br>
 </div>
