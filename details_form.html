@@ -5,80 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact details</title>
-    <link rel="stylesheet" src="detail_form.css">
+    <link rel="stylesheet" href="detail_form.css">
 </head>
-<style>
-    
-  
-</style>
+
 <body>
-    <form action ="backend.php">
-    <div  class="center" >
-       
-    <h1>DETAILS</h1>
-    
-        <!-- Name:<input type="text" name="myname" id="name" >
-
-        Address:<input type="text" name="myaddress" id="address">
-
-        Age:<select name = "age"  id="age">
-            <option value="1-18"> select age</option>
-            <option value="1-18"> below 18</option>
-            <option value="18-100 "> above 18</option>
-            </select>
-
-        Phone_no:<input type="number" name="myphone_no" id="phone_no"> 
-
-  
-        Gender: female:<input type="radio" name="female" id="female"> male:<input type="radio" name="male" id="male"> other:<input type="radio" name="other" id="other"></p>
-
-       
-        <button class="button">Submit</button>
-        <button class="button button2">Restart</button>
-    -->
-
-    <h2 class="main-heading">Sign in </h2>
-    <div class="box-block1">
-
-        <div class="block">
-            <input type="text" name="fname" class="formdesign" id="name" placeholder="Name" />
-            <h5 id="formerror1" class="formerror"></h5>
-            <!--with the help of name we can take fiels of form and it is imp -->
+     <div class="container">
+        <div class="heading">
+            <ul class="main-heading">
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>CONTACT</li>
+            </ul>
         </div>
-
-        <div class="block">
-            <input type="address" name="faddress" class="formdesign" id="address" placeholder="address" />
-            <h5 id="formerror2" class="formerror"></h5>
+        <div class="bottom">
+            <div class="first-block">
+                <h2 style="color: rgb(225, 97, 118)" >Hello</h2>
+                <h3 style="color: rgb(225, 97, 118)">Let us know more about you</h3>
+                <div class="box12">
+                    <span><input id="box1" type="text" name="fname" placeholder="First Name"></span>
+                    <span><input id="box1" type="text" name="fname" placeholder="Last Nme" ></span>
+                </div>
+                <div class="box34">
+                    <span><input id="box2" type="text" name="fmail" placeholder="Mail"></span>
+                    <span><input id="box2" type="text" name="fphone" placeholder="Phone" ></span>                    
+                </div>
+                <div class="message-box">
+                    <input id="box2" id="message-box1" type="text" name="fname" placeholder="Message">
+                </div>
+            </div>
             
-            <!--with the help of name we can take fiels of form and it is imp -->
+            <div class="second-block">
+                <div id="info">Contact Infromation</div>
+                <div id="num">Call Us: +91 8105523647</div>
+                <div id="day">Office Days: Monday - Friday</div>
+                <div id="time">Time: 10:00am - 06:00pm</div>
+                <div id="submit">
+                    <button>submit</button>
+                </div>
+            </div>
+
         </div>
-
-        <div class="block">
-
-            <input type="age" name="fage" class="formdesign" id="age" placeholder="age" />
-            <h5 id="formerror3" class="formerror" class="formdesign" placeholder="age" ></h5>
-            <select name = "age"  id="age">
-                <option value="1-18"> select age</option>
-                <option value="1-18"> below 18</option>
-                <option value="18-100 "> above 18</option>
-                </select>
-            <!--with the help of name we can take fiels of form and it is imp -->
-        </div>
-        <div class="block">
-
-            <input type="password" name="fpass" class="formdesign" id="pass" placeholder="Password" />
-            <h5 id="formerror4" class="formerror"></h5>
-            <!--with the help of name we can take fiels of form and it is imp -->
-        </div>
-
-    </div>
-    <div class="submit-button">
-        <input class="but" type="submit" value="Sign In ">
-    </div>
-</form>
-    <br>
-</div>
-</form>
+     </div>
 
 </body>
 </html>

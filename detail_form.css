@@ -4,35 +4,159 @@
     text-decoration: none;
 }
 body{
-    background-color:rgb(170, 240, 170);
+    background-color:rgb(225, 97, 118);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
-p{color:darkblue}
-k{color:pink}
-j{color:red}
 
-div {      
-    background-color: lightgrey;
-    width: 20%;
-    border: 15px solid lightslategray;
-    padding: 50px;
-    margin: 20px;
-    border: 2px solid red;
+/*FIRST BLOCK*/
+.container{
+    background-image: linear-gradient(rgb(64, 53, 127),hwb(251 10% 67%));
+    width: 80%;
+    height: 70%;
+    -webkit-box-shadow: 2px -6px 20px 2px rgba(0,0,0,0.66);
+    -moz-box-shadow: 2px -6px 20px 2px rgba(0,0,0,0.66);
+    box-shadow: 2px -6px 20px 2px rgba(0,0,0,0.66);
+    
+}
+.heading{
+    text-align: center;
 
 }
-.center {
-    display: block;
-    width: 25%;
+.main-heading{
+    margin-top: 40px;
+}
+li{
+    display: inline;
+    margin: 70px;
+    font-size: larger;
+    font-weight: bolder;
+color: rgb(225, 97, 118);;
+    
+}
+.bottom{
+    display: inline-flex;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+    width: 100%; 
+    height: 60vh;
+}
+.first-block{
+    position: relative;
+
+    height: 50vh;
+    width: 80vh;
+    margin: 0;
+    text-align: center;
+    
+    padding: 50px 0;
+    text-align: center;
+     
+       
+}
+.second-block{
+    border:  rgb(84, 162, 188)   ;
+    height: 80vh;
+    width: 90vh;
+    margin: 0;
+    right: 20px;
+    
+}
+#box1{
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    top: 50px;
+    margin: 8px;
+    border-radius: 10px;
+}
+#box2{
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    top: 0px;
+    margin: 8px;
+    border-radius: 10px;
+
+}
+.box12{
+    display: inline-flex;
+}
+.box34{
+    display: inline-flex;
+    position: relative;
+    top: 50px;
+
+}
+
+.message-box{
+    position: relative;
+    padding: -15px 50px 0px 50px;
+    top: 60px;
+    height: 70px;
+
+
+    
+}
+
+/* SECOND BLOCK*/
+
+.second-block{
+    height: 400px;
+    width: 550px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    text-align: center;
+    
+}
+
+#submit{
+    position:relative;
+    top: 40%;
     padding: 10px;
 }
-.button {
-    background-color:blue; /* reds */
-    color: white;
-    padding: 6px 23px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+button{
+    padding: 15px 50px;
+    border-radius: 15px;
 }
-.button2{background-color: #f44336;}
+#time{
+    position: relative;
+    top: 25%;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+}
+#day{
+    position: relative;
+    top: 15%;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+
+}
+#num{
+    position: relative;
+    top: 5%;
+    padding: 12px;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+
+}
+#info{
+    color: rgb(225, 97, 118);
+    text-decoration:underline;
+    position: relative;
+    top: 5%;
+    padding: 20px;
+    font-size: 35px;
+    font-weight: bolder;
+
+}
